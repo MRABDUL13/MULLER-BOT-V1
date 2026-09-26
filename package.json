@@ -1,0 +1,27 @@
+{
+  "name": "muller-bot",
+  "version": "1.0.0",
+  "description": "MULLER BOT - 300+ WhatsApp Commands",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "cli": "node cli.js"
+  },
+  "keywords": ["whatsapp", "bot", "baileys"],
+  "author": "Mullerdata",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "6.7.18",
+    "pino": "^8.16.0",
+    "pino-pretty": "^10.3.0",
+    "qrcode-terminal": "^0.12.0",
+    "ffmpeg-static": "^5.2.0",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}
